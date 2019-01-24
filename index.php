@@ -1,13 +1,16 @@
-<html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Random Number</title>
+    </head>
+    <body>
+        <p>Generating a random number between 1 and 10:
+            <?php
 
-<head>
-<title>Hello World!</title>
-</head>
+            echo rand(1, 10);
 
-<body>
-
-<?php echo "Hello World!"; ?>
-<?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?><br /><br />
-}
-</body>
+            ?>
+        </p>
+    </body>
 </html>
+                  
